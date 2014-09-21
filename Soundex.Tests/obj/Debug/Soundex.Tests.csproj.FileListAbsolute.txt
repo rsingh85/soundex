@@ -1,0 +1,7 @@
+C:\Dev\Soundex\Soundex.Tests\bin\Debug\Soundex.Tests.dll
+C:\Dev\Soundex\Soundex.Tests\bin\Debug\Soundex.Tests.pdb
+C:\Dev\Soundex\Soundex.Tests\bin\Debug\Soundex.dll
+C:\Dev\Soundex\Soundex.Tests\bin\Debug\Soundex.pdb
+C:\Dev\Soundex\Soundex.Tests\obj\Debug\Soundex.Tests.csprojResolveAssemblyReference.cache
+C:\Dev\Soundex\Soundex.Tests\obj\Debug\Soundex.Tests.dll
+C:\Dev\Soundex\Soundex.Tests\obj\Debug\Soundex.Tests.pdb

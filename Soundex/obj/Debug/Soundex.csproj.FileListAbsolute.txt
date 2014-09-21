@@ -1,0 +1,4 @@
+C:\Dev\Soundex\Soundex\bin\Debug\Soundex.dll
+C:\Dev\Soundex\Soundex\bin\Debug\Soundex.pdb
+C:\Dev\Soundex\Soundex\obj\Debug\Soundex.dll
+C:\Dev\Soundex\Soundex\obj\Debug\Soundex.pdb
