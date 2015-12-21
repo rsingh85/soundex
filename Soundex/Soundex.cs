@@ -9,7 +9,7 @@ namespace Soundex
     /// <summary>
     /// Provides functionality to retrieve a soundex code for a given word.
     /// </summary>
-    public class Soundex
+    public sealed class Soundex
     {
         /// <summary>
         /// Returns the soundex code for a specified word.
