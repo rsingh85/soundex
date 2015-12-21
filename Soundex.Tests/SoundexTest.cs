@@ -60,49 +60,50 @@ namespace Soundex.Tests
         [TestMethod]
         public void ForTests()
         {
+            Soundex soundex = new Soundex();
             string word, expected, actual;
 
             word = "";
             expected = "0000";
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
 
             word = null;
             expected = "0000";
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
 
             word = "Robert";
             expected = "R163";
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
 
             word = "Rupert".ToLower();
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
 
             word = "Rubin";
             expected = "R150";
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
 
             word = "Ashcraft";
             expected = "A261";
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
 
             word = "Ashcroft";
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
 
             word = "Tymczak";
             expected = "T522";
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
 
             word = "Pfister";
             expected = "P236";
-            actual = Soundex.For(word);
+            actual = soundex.For(word);
             Assert.AreEqual(expected, actual);
         }
     }

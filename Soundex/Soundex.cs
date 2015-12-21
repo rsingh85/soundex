@@ -9,14 +9,14 @@ namespace Soundex
     /// <summary>
     /// Provides functionality to retrieve a soundex code for a given word.
     /// </summary>
-    public static class Soundex
+    public class Soundex
     {
         /// <summary>
         /// Returns the soundex code for a specified word.
         /// </summary>
         /// <param name="word">Word to get the soundex for.</param>
         /// <returns>Soundex code for word.</returns>
-        public static string For(string word)
+        public string For(string word)
         {
             const int MaxSoundexCodeLength = 4;
 
@@ -72,7 +72,7 @@ namespace Soundex
         /// </summary>
         /// <param name="letter">Letter to get the soundex number for.</param>
         /// <returns>Soundex number (as a character) for letter.</returns>
-        private static char GetCharNumberForLetter(char letter)
+        private char GetCharNumberForLetter(char letter)
         {
             if ("BFPV".Contains(letter)) return '1';
             if ("CGJKQSXZ".Contains(letter)) return '2';
